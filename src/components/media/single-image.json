@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_media_single_images",
+  "info": {
+    "displayName": "single image",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "format": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "fullscreen"
+      ]
+    }
+  }
+}
